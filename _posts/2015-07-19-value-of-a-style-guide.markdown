@@ -44,9 +44,6 @@ var artClass = new Class([
 
 // Check all the students
 artClass.trigger( "summerVacation" );
-artClass.forEach( (student) => console.log( student.get('classes') ) );
-//=> []
-//=> []
-//=> []
+artClass.pluck('classes');
+//=> [ [], [], [] ]
 {% endhighlight %}
-
