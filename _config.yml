@@ -1,0 +1,10 @@
+# Site settings
+title: Christopher Marlow
+email: christopher.marlow@gmail.com
+description: "Interfacesmith"
+baseurl: ""
+url: "http://cmarlow.com"
+
+# Build settings
+markdown: kramdown
+permalink: pretty
